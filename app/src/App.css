@@ -1,0 +1,21 @@
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  min-width: 50px;
+  overflow: hidden;
+}
+
+.ant-table-thead > tr > th:hover,
+.ant-table-tbody > tr > td:hover {
+  overflow: scroll;
+}
+
+.ant-table-thead > tr,
+.ant-table-tbody > tr {
+  min-width: 50px;
+  overflow: hidden;
+}
+
+table {
+  table-layout: fixed;
+  width: 1500px;
+}
